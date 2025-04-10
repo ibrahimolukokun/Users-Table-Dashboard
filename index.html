@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Users Dashboard </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-text">
+                <h1>Users</h1>
+                <p>A list of all the users in your account including their name, title, email and role.</p>
+            </div>
+            <div class="header-action">
+                <button class="add-user-btn">Add user</button>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Status</th>
+                        <th>Role</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="user-info">
+                                <div class="avatar-container">
+                                    <img src="https://i.pravatar.cc/150?img=1" alt="Lindsay Walton" class="avatar">
+                                </div>
+                                <div class="user-details">
+                                    <div class="user-name">Lindsay Walton</div>
+                                    <div class="user-email">lindsay.walton@example.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="title-container">
+                                <div class="title">Front-end Developer</div>
+                                <div class="subtitle">Optimization</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status-container">
+                                <div class="status">Active</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="role-container">
+                                <div class="role">Member</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="action-container">
+                                <a href="#" class="edit-btn">Edit</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="user-info">
+                                <div class="avatar-container">
+                                    <img src="https://i.pravatar.cc/150?img=2" alt="Courtney Henry" class="avatar">
+                                </div>
+                                <div class="user-details">
+                                    <div class="user-name">Courtney Henry</div>
+                                    <div class="user-email">courtney.henry@example.com</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="title-container">
+                                <div class="title">Designer</div>
+                                <div class="subtitle">Intranet</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status-container">
+                                <div class="status">Active</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="role-container">
+                                <div class="role">Admin</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="action-container">
+                                <a href="#" class="edit-btn">Edit</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Additional users can be added following the same pattern -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html> 

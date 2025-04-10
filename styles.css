@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem 2rem 0 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.header-text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+.header-text p {
+    color: #6B7280;
+    font-size: 0.875rem;
+}
+
+.add-user-btn {
+    background-color: #6366F1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    color: #374151;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #E5E7EB;
+    color: #374151;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.avatar-container {
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.user-name {
+    font-weight: 500;
+    color: #111827;
+}
+
+.user-email {
+    color: #6B7280;
+    font-size: 0.875rem;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.title {
+    color: #111827;
+    font-weight: 500;
+}
+
+.subtitle {
+    color: #6B7280;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.status-container {
+    display: flex;
+}
+
+.status {
+    background-color: #DEF7EC;
+    color: #059669;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    display: inline-block;
+}
+
+.role-container {
+    display: flex;
+}
+
+.role {
+    color: #111827;
+    font-weight: 500;
+}
+
+.action-container {
+    display: flex;
+}
+
+.edit-btn {
+    color: #6366F1;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
